@@ -2,7 +2,15 @@ import os
 import time
 import requests
 from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.service import Service
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException, NoSuchElementException, ElementClickInterceptedException
+from webdriver_manager.chrome import ChromeDriverManager
 import csv
 import tkinter as tk
 from tkinter import filedialog, messagebox
@@ -153,7 +161,8 @@ def capture_map_screenshot(address, screenshot_filename):
     chrome_options = Options()
     chrome_options.add_argument("--headless")
     chrome_options.add_argument(f"--window-size={MAP_WIDTH},{MAP_HEIGHT}")
-    driver = webdriver.Chrome(options=chrome_options)
+    # Initialize the Chrome driver
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options = chrome_options)
 
     location = geocode_address(address)
     if location:
