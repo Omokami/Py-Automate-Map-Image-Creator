@@ -4,6 +4,12 @@
 
 The Map Screenshot Generator is a Python-based application designed to automate the process of creating map images based on addresses listed in CSV files. Utilizing the Mapbox API for geocoding and map rendering, this tool is ideal for users who need to generate visual representations of multiple locations efficiently. The application features a simple GUI for user input and processes CSV files to create map images, which are saved automatically.
 
+## Video Preview
+
+[![Video Preview](path_to_your_image.jpg)](https://drive.google.com/file/d/1xIcAe6KGHZ6pfhMZrk-b1DOV0ybj0V4X/view?usp=drive_link)
+
+Click on the image above to watch a video demonstration of the Map Screenshot Generator.
+
 ## Features
 
 - **Automated Map Image Creation**: Converts address data from CSV files into map images.
