@@ -6,7 +6,7 @@ The Map Screenshot Generator is a Python-based application designed to automate 
 
 ## Video Preview
 
-[![Video Preview](path_to_your_image.jpg)](https://drive.google.com/file/d/1xIcAe6KGHZ6pfhMZrk-b1DOV0ybj0V4X/view?usp=drive_link)
+[![Video Preview](https://github.com/DevRex-0201/Py-Automate-Map-Image-Creator/blob/main/Automate%20Map%20Image%20Creation%20from%20CSV%20Data.png)](https://drive.google.com/file/d/1xIcAe6KGHZ6pfhMZrk-b1DOV0ybj0V4X/view?usp=drive_link)
 
 Click on the image above to watch a video demonstration of the Map Screenshot Generator.
 
